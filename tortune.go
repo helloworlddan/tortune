@@ -14,6 +14,7 @@ var (
 		"Zero-Trust means everybody gets access to Ring-0",
 		"Localhost?! More like loserhost!",
 		"alias yolo=\"sudo\"",
+		"Friends don't let friends compile locally.",
 	}
 )
 
