@@ -7,10 +7,11 @@ import (
 	"time"
 )
 
-const version = "0.0.4"
+const version = "0.0.5"
 
 var (
 	db = [...]string{
+		"Don't assume; it makes an ASS out of U and ME",
 		"Zero-Trust means everybody gets access to Ring-0",
 		"Localhost?! More like loserhost!",
 		"alias yolo=\"sudo\"",
@@ -41,6 +42,14 @@ var (
 		"The 'S' in IoT stands for Security.",
 		"Even though when I show people my password they say it's secure, I still get hacked sometimes.",
 		"I used to tell a joke about UDP at parties, but I quit.\nI could never tell if anyone got it.",
+		"How many Prolog programmers does it take to change a lightbulb?\nA: Yes.",
+		"What can you do if you cannot push your git changes?\nUse the '--force', Luke",
+		"How do you get the code for the bank vault?\nYou checkout their branch.",
+		"Why doesn't Hollywood make more Big Data movies?\nNoSQL",
+		"How do programming pirates pass method parameters?\nVarrrrarrrgs.",
+		"How did pirates collaborate before computers?\nPier to pier networking.",
+		"['hip','hip'] // (hip hip array!)",
+		"Halloween and Christmas are so confusing, because 31 OCT == 25 DEC.",
 	}
 )
 
