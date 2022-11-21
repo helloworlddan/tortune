@@ -7,14 +7,33 @@ import (
 	"time"
 )
 
-const version = "0.0.5"
+const version = "0.0.6"
 
 var (
 	db = [...]string{
-		"Don't assume; it makes an ASS out of U and ME",
-		"Zero-Trust means everybody gets access to Ring-0",
+		"Interviewer: What is your biggest strength?\nMe: I am an expert in machine learning.\nInterviewer: What’s 6 + 10?\nMe: Zero.\nInterviewer: Nowhere near. It’s 16.\nMe: Ok, It’s 16.\nInterviewer: What is 10 + 20?\nMe: It’s 16.",
+		"I was surprised when my niece said she learned R at school yesterday, and then I remembered she's 4 and she meant the letter.",
+		"Q: Why did the naive Bayesian suddenly feel patriotic when he heard fireworks?\nA: It assumed independence.",
+		"Movie exec: 'Pitch me!'\nMe: 'It’s a movie about high school girls trying to figure out what clique they belong in. They move from clique to clique and eventually stop when they minimize their differences. It’s called K-Means girls.'",
+		"Your ML models are looking real fit, they must do a lot of weighted training.",
+		"Chuck Norris can take a screenshot of his blue screen.",
+		"Q: Why can’t data engineers become hat makers?\nA: They can only guarantee two thirds of a CAP!",
+		"Nothing good can come from 2989 witches casting a hex; it's always 0xBAD.",
+		"Good programmers copy; great programmers paste.",
+		"Programmers store all their dad jokes in a dad-a-base.",
+		"Unfortunately these jokes only work if you git them.",
+		"Next year will be the year of Linux on the desktop!",
+		"Q: Why did the functions stop calling each other?\nA: Because they had constant arguments.",
+		"There are 2 hard problems in computer science: caching, naming, and off-by-1 errors.",
+		"UNIX is user friendly. It’s just very particular about who its friends are.",
+		"Two threads walk into a bar. The barkeeper looks up and yells, “Hey, I want don’t any conditions race like time last!”",
+		"ASCII stupid question, get a stupid ANSI.",
+		"Real programmers count from 0.",
+		"Debugging: Being the detective in a movie where you are also the murderer.",
+		"Don't assume; it makes an ASS out of U and ME.",
+		"Zero-Trust means everybody gets access to Ring-0.",
 		"Localhost?! More like loserhost!",
-		"alias yolo=\"sudo\"",
+		"alias yolo=\"sudo !!\"",
 		"Friends don't let friends compile locally.",
 		"My other supercomputer is Google Cloud.",
 		"az·ure (/ˈaZHər/): bright blue in color like a cloudless sky.",
@@ -42,7 +61,7 @@ var (
 		"The 'S' in IoT stands for Security.",
 		"Even though when I show people my password they say it's secure, I still get hacked sometimes.",
 		"I used to tell a joke about UDP at parties, but I quit.\nI could never tell if anyone got it.",
-		"How many Prolog programmers does it take to change a lightbulb?\nA: Yes.",
+		"Q: How many Prolog programmers does it take to change a lightbulb?\nA: Yes.",
 		"What can you do if you cannot push your git changes?\nUse the '--force', Luke",
 		"How do you get the code for the bank vault?\nYou checkout their branch.",
 		"Why doesn't Hollywood make more Big Data movies?\nNoSQL",
