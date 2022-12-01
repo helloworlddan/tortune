@@ -11,6 +11,7 @@ const Version = "0.0.7"
 
 var (
 	db = [...]string{
+		"Microsoft has really gotten good at making hardware. I colloquially refer to this phenomenon as Microhard.",
 		"Interviewer: What is your biggest strength?\nMe: I am an expert in machine learning.\nInterviewer: What’s 6 + 10?\nMe: Zero.\nInterviewer: Nowhere near. It’s 16.\nMe: Ok, It’s 16.\nInterviewer: What is 10 + 20?\nMe: It’s 16.",
 		"I was surprised when my niece said she learned R at school yesterday, and then I remembered she's 4 and she meant the letter.",
 		"Q: Why did the naive Bayesian suddenly feel patriotic when he heard fireworks?\nA: It assumed independence.",
