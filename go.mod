@@ -1,3 +1,3 @@
-module github.com/NucleusEngineering/tortune
+module github.com/helloworlddan/tortune
 
-go 1.20
+go 1.19

@@ -1,4 +1,4 @@
-package main
+package tortune
 
 import (
 	"flag"
@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const version = "0.0.6"
+const Version = "0.0.7"
 
 var (
 	db = [...]string{
@@ -72,12 +72,18 @@ var (
 	}
 )
 
+func HitMe() string {
+	rand.Seed(time.Now().Unix())
+
+	return db[rand.Intn(len(db))]
+}
+
 func main() {
 	versionToggle := flag.Bool("version", false, "show version info")
 	flag.Parse()
 
 	if *versionToggle == true {
-		fmt.Printf("tortune version %s\n", version)
+		fmt.Printf("tortune version %s\n", Version)
 		return
 	}
 
