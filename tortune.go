@@ -70,6 +70,8 @@ var (
 		"How did pirates collaborate before computers?\nPier to pier networking.",
 		"['hip','hip'] // (hip hip array!)",
 		"Halloween and Christmas are so confusing, because 31 OCT == 25 DEC.",
+		"UDP bar is packet going into a",
+		"Hi. I'd like to hear a TCP joke.\nHello, would you like to hear a TCP joke?\nYes, I would like to hear a TCP joke.\nOK, I will tell you a TCP joke.\nOk, I will hear a TCP joke.\nAre you ready to hear a TCP joke?\nYes. I am ready to hear a TCP joke.\nOk, I am about to send the TCP joke. It will last 10 seconds, it has two characters, it does not have a setting, it ends with a punchline.\nOk, I am ready to receive your TCP joke that will last 10 seconds, has two...\nI'm sorry, your connection has timed out.\nHi, I would like to hear a TCP joke?",
 	}
 )
 
