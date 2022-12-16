@@ -1,13 +1,11 @@
 package tortune
 
 import (
-	"flag"
-	"fmt"
 	"math/rand"
 	"time"
 )
 
-const Version = "0.0.7"
+const Version = "0.0.8"
 
 var (
 	db = [...]string{
@@ -79,17 +77,4 @@ func HitMe() string {
 	rand.Seed(time.Now().Unix())
 
 	return db[rand.Intn(len(db))]
-}
-
-func main() {
-	versionToggle := flag.Bool("version", false, "show version info")
-	flag.Parse()
-
-	if *versionToggle == true {
-		fmt.Printf("tortune version %s\n", Version)
-		return
-	}
-
-	rand.Seed(time.Now().Unix())
-	fmt.Println(db[rand.Intn(len(db))])
 }
