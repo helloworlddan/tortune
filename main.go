@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/helloworlddan/tortune"
+	"github.com/helloworlddan/tortune/tortune"
 )
 
 func main() {

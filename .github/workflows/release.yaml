@@ -10,37 +10,31 @@ jobs:
     - uses: actions/checkout@v3
     - uses: wangyoucao577/go-release-action@v1.32
       with:
-        project_path: ./cli
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: linux
         goarch: amd64
     - uses: wangyoucao577/go-release-action@v1.32
       with:
-        project_path: ./cli
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: linux
         goarch: arm64
     - uses: wangyoucao577/go-release-action@v1.32
       with:
-        project_path: ./cli
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: darwin
         goarch: amd64
     - uses: wangyoucao577/go-release-action@v1.32
       with:
-        project_path: ./cli
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: darwin
         goarch: arm64
     - uses: wangyoucao577/go-release-action@v1.32
       with:
-        project_path: ./cli
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: windows
         goarch: amd64
     - uses: wangyoucao577/go-release-action@v1.32
       with:
-        project_path: ./cli
         github_token: ${{ secrets.GITHUB_TOKEN }}
         goos: windows
         goarch: arm64

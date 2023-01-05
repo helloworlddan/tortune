@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-const Version = "0.0.8"
+const Version = "0.0.9"
 
 var (
 	db = [...]string{
