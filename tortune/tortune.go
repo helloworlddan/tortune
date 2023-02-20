@@ -5,10 +5,11 @@ import (
 	"time"
 )
 
-const Version = "0.0.11"
+const Version = "0.0.12"
 
 var (
 	db = [...]string{
+		"['🥚','🐔'].shuffle.pop",
 		"A: Hey, do you know my friend Jason?\nB: You mean Jason Marshall?!\nYeah, he's super serial.",
 		"Microsoft has really gotten good at making hardware. I colloquially refer to this phenomenon as Microhard.",
 		"Interviewer: What is your biggest strength?\nMe: I am an expert in machine learning.\nInterviewer: What’s 6 + 10?\nMe: Zero.\nInterviewer: Nowhere near. It’s 16.\nMe: Ok, It’s 16.\nInterviewer: What is 10 + 20?\nMe: It’s 16.",
