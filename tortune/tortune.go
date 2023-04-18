@@ -5,10 +5,13 @@ import (
 	"time"
 )
 
-const Version = "0.0.12"
+const Version = "0.0.13"
 
 var (
 	db = [...]string{
+		"Chrome is here the heart is",
+		"Chrome Sweet Chrome",
+		"There is no place like Chrome",
 		"['🥚','🐔'].shuffle.pop",
 		"A: Hey, do you know my friend Jason?\nB: You mean Jason Marshall?!\nYeah, he's super serial.",
 		"Microsoft has really gotten good at making hardware. I colloquially refer to this phenomenon as Microhard.",
