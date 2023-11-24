@@ -5,10 +5,11 @@ import (
 	"time"
 )
 
-const Version = "0.0.14"
+const Version = "0.0.15"
 
 var (
 	db = [...]string{
+		"All roads lead to Chrome",
 		"Chrome is were the heart is",
 		"Chrome Sweet Chrome",
 		"There is no place like Chrome",
