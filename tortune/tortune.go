@@ -4,7 +4,7 @@ import (
 	"math/rand"
 )
 
-const Version = "0.0.18"
+const Version = "0.0.21"
 
 func HitMe() string {
 	return db[rand.Intn(len(db))]
@@ -91,5 +91,8 @@ var db = [...]string{
 	"Why did the neural network go to therapy?\nIt had too much baggage in its hidden layers.",
 	"A QA engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.\nThe first real customer walks in and asks where the bathroom is. The bar bursts into flames.",
 	"The best thing about boolean logic is that even if you're wrong, you're only off by a bit.",
+	"I had a problem, so I decided to use microservices. Now I have 17 problems distributed across 4 availability zones.",
+	"There are two types of distributed systems: those with network partitions, and those that haven't noticed yet.",
+	"Walking on water and developing software from a specification are easy if both are frozen.",
 	"To understand recursion, you must first understand recursion.",
 }
