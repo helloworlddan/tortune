@@ -83,4 +83,13 @@ var db = [...]string{
 	"Ah, the Pixelbook. Not as clumsy or random as a Mac; an elegant weapon for a more civilized age.",
 	"It works on my container!",
 	"What happens when someone slaps you in a high frequency? It Megahertz",
+	"A SQL query walks into a bar, walks up to two tables, and asks: 'Can I join you?'",
+	"Why do programmers prefer dark mode?\nBecause light attracts bugs.",
+	"An optimist says the glass is half full. A pessimist says the glass is half empty. A programmer says the glass is twice as large as necessary.",
+	"Goroutines: cheaper than threads, faster than callbacks, and twice as likely to deadlock when you least expect it.",
+	"kubectl apply -f hope-and-prayers.yaml",
+	"Why did the neural network go to therapy?\nIt had too much baggage in its hidden layers.",
+	"A QA engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.\nThe first real customer walks in and asks where the bathroom is. The bar bursts into flames.",
+	"The best thing about boolean logic is that even if you're wrong, you're only off by a bit.",
+	"To understand recursion, you must first understand recursion.",
 }
